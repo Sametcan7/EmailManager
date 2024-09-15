@@ -1,0 +1,44 @@
+{
+  "emails": [
+    {
+      "company": "posteffect.ai",
+      "users": [
+        { "id": 1, "mail": "mehmet@posteffect.ai" },
+        { "id": 2, "mail": "cetin@posteffect.ai" },
+        { "id": 3, "mail": "sevgi@posteffect.ai" },
+        { "id": 4, "mail": "samet@posteffect.ai" }
+      ]
+    },
+    {
+      "company": "Amazon",
+      "users": [
+        { "id": 5, "mail": "jeff@amazon.com" },
+        { "id": 6, "mail": "bezos@amazon.com" }
+      ]
+    },
+
+    {
+      "company": "SpaceX",
+      "users": [
+        { "id": 7, "mail": "elon@spacex.com" },
+        { "id": 8, "mail": "reeve@spacex.com" },
+        { "id": 9, "mail": "musk@spacex.com" }
+      ]
+    },
+    {
+      "company": null,
+      "users": [
+        { "id": 10, "mail": "ali@gmail.com" },
+        { "id": 12, "mail": "fatma@gmail.com" },
+        { "id": 13, "mail": "huseyin@gmail.com" },
+        { "id": 14, "mail": "ayse@gmail.com" },
+        { "id": 15, "mail": "chris@hotmail.com" },
+        { "id": 16, "mail": "mike@hotmail.com" },
+        { "id": 17, "mail": "walter@hotmail.com" },
+        { "id": 18, "mail": "kubra@hotmail.com" },
+        { "id": 19, "mail": "jesse@hotmail.com" },
+        { "id": 20, "mail": "emre@hotmail.com" }
+      ]
+    }
+  ]
+}
