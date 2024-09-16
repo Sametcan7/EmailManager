@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import emails1 from "../../database.json";
-import CompanyRecipient from "../../ui/CompanyRecipient";
-import IndividualRecipients from "../../ui/IndividualRecipients";
+import CompanyRecipient from "../../ui/available-recipients/CompanyRecipient";
+import IndividualRecipients from "../../ui/available-recipients/IndividualRecipients";
 import { IoIosSearch } from "react-icons/io";
 import { IconContext } from "react-icons";
 

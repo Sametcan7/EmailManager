@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import CompanyRecipient from "../../ui/CompanyRecipient";
-import IndividualRecipients from "../../ui/IndividualRecipients";
+import CompanyRecipient from "../../ui/selected-recipients/CompanyRecipient";
+import IndividualRecipients from "../../ui/selected-recipients/IndividualRecipients";
 import { RiDeleteBin5Line } from "react-icons/ri";
 
 import { CompanyContext, IndividualContext } from "../../context";
