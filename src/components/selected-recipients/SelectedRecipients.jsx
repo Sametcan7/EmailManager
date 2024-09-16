@@ -24,11 +24,13 @@ export default function SelectedRecipients() {
         <h1 className="text-blue-400 text-2xl font-bold mb-4">
           Selected Recipients
         </h1>
-        <button className="ml-auto" onClick={() => HandleDeleteAll()}>
-          <IconContext.Provider value={{ size: "2rem" }}>
-            <RiDeleteBin5Line />
-          </IconContext.Provider>
-        </button>
+         {companyContext.length > 0 || individualContext.length > 0 ? (
+          <button className="ml-auto" onClick={() => HandleDeleteAll()}>
+            <IconContext.Provider value={{ size: "2rem" }}>
+              <RiDeleteBin5Line />
+            </IconContext.Provider>
+          </button>
+        ) : null}
         <div className="ml-[20px] w-4/5">
           {companyContext?.map((email) => (
             <CompanyRecipient
