@@ -19,7 +19,7 @@ export default function SelectedRecipients() {
   }
 
   return (
-    <div className="w-1/2 ">
+    <div className="w-1/2 text-lg">
       <div className="p-6 xl:w-3/5 w-4/5 flex flex-col my-10 h-screen mx-auto overflow-x-auto items-start shadow-2xl">
         <h1 className="text-blue-400 text-2xl font-bold mb-4">
           Selected Recipients
