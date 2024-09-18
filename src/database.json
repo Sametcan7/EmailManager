@@ -1,12 +1,11 @@
 {
   "emails": [
     {
-      "company": "posteffect.ai",
+      "company": "a-corp",
       "users": [
-        { "id": 1, "mail": "mehmet@posteffect.ai" },
-        { "id": 2, "mail": "cetin@posteffect.ai" },
-        { "id": 3, "mail": "sevgi@posteffect.ai" },
-        { "id": 4, "mail": "samet@posteffect.ai" }
+        { "id": 1, "mail": "samet@a-corp.com" },
+        { "id": 2, "mail": "can@a-corp.com" },
+        { "id": 3, "mail": "akcaalan@a-corp.com" }
       ]
     },
     {
