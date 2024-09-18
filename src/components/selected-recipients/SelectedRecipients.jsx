@@ -10,8 +10,6 @@ export default function SelectedRecipients() {
   const [companyContext, setCompanyContext] = useContext(CompanyContext);
   const [individualContext, setIndividualContext] =
     useContext(IndividualContext);
-  console.log(individualContext);
-  console.log(companyContext);
 
   function HandleDeleteAll() {
     setCompanyContext([]);
