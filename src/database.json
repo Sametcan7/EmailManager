@@ -1,7 +1,7 @@
 {
   "emails": [
     {
-      "company": "a-corp",
+      "company": "A-corp",
       "users": [
         { "id": 1, "mail": "samet@a-corp.com" },
         { "id": 2, "mail": "can@a-corp.com" },
