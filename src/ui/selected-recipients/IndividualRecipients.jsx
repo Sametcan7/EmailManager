@@ -21,7 +21,7 @@ export default function IndividualRecipients({ user }) {
       </h1>
       <ul>
         {user?.map((user) => (
-          <li className="relative justify-between flex p-2" key={user.id}>
+          <li className="relative justify-between flex p-2 hover:bg-white rounded-xl" key={user.id}>
             {user.mail}
             <div className=" flex">
               <button onClick={() => HandleDelete(user.id)}>
