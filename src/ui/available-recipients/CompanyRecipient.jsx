@@ -94,7 +94,7 @@ export default function CompanyRecipient({ company, users }) {
           <ul className="w-[70%] ml-5 border-b-2 border-l-2 border-r-2 border-black rounded-xl">
             {users.map((user) => {
               return (
-                <li className="relative" key={user.id}>
+                <li className="relative hover:bg-white" key={user.id}>
                   {user.mail}
                   <div className="absolute flex gap-1 right-2 top-[50%] translate-y-[-50%]">
                     <button
